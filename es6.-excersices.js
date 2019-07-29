@@ -4,8 +4,8 @@
 // the second one contains equivalent property and values the same of first one. 
 
 console.log(matches({ age: 25, hair: 'long', beard: true }, { hair: 'long', beard: true })); // true
-console.log(matches({ hair: 'long', beard: true }, { age: 25, hair: 'long', beard: true })); // false
-console.log(matches({ hair: 'long', beard: true }, { age: 26, hair: 'long', beard: true })); // false
+console.log(matches({ hair: 'long', beard: true }, { age: 25, beard: true })); // false
+console.log(matches({ hair: 'long', beard: true }, { age: 26, beard: true })); // false
 
 
 // Excersice 7: Write a JavaScript program to converts a specified number to an array of digits. 
