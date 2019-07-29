@@ -1,20 +1,21 @@
 //Implement all the ecxersices using Javascript ES6
 
-// Excersice 1: Write a JavaScript program to compare two objects to determine if the first one contains equivalent property values to the second one. 
+// Excersice 1: Write a JavaScript program to compare two objects to determine if
+// the second one contains equivalent property and values the same of first one. 
 
+console.log(matches({ age: 25, hair: 'long', beard: true }, { hair: 'long', beard: true })); // true
+console.log(matches({ hair: 'long', beard: true }, { age: 25, hair: 'long', beard: true })); // false
+console.log(matches({ hair: 'long', beard: true }, { age: 26, hair: 'long', beard: true })); // false
 
-// Excersice 2: Write a JavaScript program to copy a string to the clipboard. 
-
-
-// Excersice 3: Write a JavaScript program to converts a comma-separated values (CSV) string to a 2D array. 
-
-// Excersice 4: Write a JavaScript program to convert a comma-separated values (CSV) string to a 2D array of objects. The first row of the string is used as the title row. 
-
-// Excersice 5:Write a JavaScript program to convert an array of objects to a comma-separated values (CSV) string that contains only the columns specified. 
-
-// Excersice 6: Write a JavaScript program to target a given value in a nested JSON object, based on the given key. 
 
 // Excersice 7: Write a JavaScript program to converts a specified number to an array of digits. 
+console.log(digitize(123))
+// => [1,2,3]
+console.log(digitize(1230));
+// => [1,2,3,0]
+
+
+
 
 // Excersice 8: Write a JavaScript program to filter out the specified values from an specified array. Return the original array without the filtered values. 
 
